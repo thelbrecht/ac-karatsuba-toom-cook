@@ -1,0 +1,41 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[left=3cm, right=3cm, top=3cm]{geometry}
+
+
+\usepackage{amsmath}
+
+\begin{document}
+    \begin{flalign*}
+        \left({
+            \begin{matrix}
+                c_{0}\\
+                c_{1}\\
+                c_{2}\\
+                c_{3}\\
+                c_{4}
+            \end{matrix}}
+        \right)  
+        =\left({
+            \begin{matrix}
+                1 & 0 & 0 & 0 & 0\\
+                1 & 1 & 1 & 1 & 1\\
+                1 & -1 & 1 & - 1 & 1\\
+                1 & -2 & 4 & -8 & 16\\
+                0 & 0 & 0 & 0 & 1
+            \end{matrix}}
+            \right)^{-1}        \left({
+                \begin{matrix}
+                    c(0)\\
+                    c(1)\\
+                    c(-1)\\
+                    c(-2)\\
+                    c(\infty)
+                \end{matrix}}
+            \right)
+    \end{flalign*}
+\end{document}
+
+
+
+    
+    
